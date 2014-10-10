@@ -4,7 +4,7 @@
 
     <appender name="ConsoleOutputAppender" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%n%-5level - [%d{yyyy-MM-dd HH:mm:ss}] - %c.%M\(%c{0}.java:%line\)%n ${tip} %msg%n</pattern>
+            <pattern>%n%-5level - [%d{yyyy-MM-dd HH:mm:ss}] - %c.%M\(%c{0}.java:%line\)%n%msg%n</pattern>
         </encoder>
     </appender>
 
