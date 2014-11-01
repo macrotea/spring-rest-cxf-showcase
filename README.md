@@ -2,7 +2,7 @@
 
 ## 简介 ##
 
-- 整合 Apache CXF
+- 整合 Apache CXF 框架
 - 基于 Maven3 构建项目
 
 ## 关注点 ##
