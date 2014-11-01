@@ -3,7 +3,7 @@
 <c:set var="ctxPath" value="${pageContext.request.contextPath}"/>
 
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans-CN">
+<html lang="en">
     <head>
     <title>spring-rest-cxf-showcase</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />

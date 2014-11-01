@@ -2,22 +2,18 @@
 
 ## 简介 ##
 
-- 基于 Spring3 + Hiberate4 + H2/Mysql 整合开发且包含基本的CRUD功能
+- 整合 Apache CXF
 - 基于 Maven3 构建项目
-- 基于 Bootstrap3 的前端页面开发
 
 ## 关注点 ##
 
 - 所有单元测试执行通过
+- 打开http://localhost:8080/页面，点击链接进行相关WS调用
 
 ## 运行 ##
 
 - git clone
-- mvn jetty:run
-
-## 注意 ##
-
-- 若使用MySQL数据库,请修改配置文件中的用户名和密码,同时在本地创建对应名称的数据库
+- 运行相关代码
 
 ## 联系我 ##
 

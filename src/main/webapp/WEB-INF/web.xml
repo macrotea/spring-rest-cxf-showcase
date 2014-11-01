@@ -6,13 +6,12 @@
 
     <!--
     ============================================
-    = Spring
+    = CXF
     ==========================================-->
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <!--classpath:app-root.xml-->
-        <param-value>classpath:app-demo2.xml</param-value>
+        <param-value>classpath:app-root.xml</param-value>
     </context-param>
 
     <listener>
@@ -31,10 +30,11 @@
         <url-pattern>/ws/*</url-pattern>
     </servlet-mapping>
 
+    <!--
+    ============================================
+    = Spring MVC
+    ==========================================-->
 
-
-
-    <!--Spring MVC-->
     <!--
     <servlet>
         <servlet-name>DispatcherServlet</servlet-name>
